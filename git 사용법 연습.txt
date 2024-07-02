@@ -1,2 +1,14 @@
 HTML 
 -> Hyper Text Markup Language
+
+
+
+수업을 듣고 수정한 내용
+
+body tag
+브라우져에 표시되는 내용을 작성하는 태그
+
+head 태그
+HTML 문서를 정의하는 내용을 작성하는 태그
+
+ctrl+d : 한줄삭제
