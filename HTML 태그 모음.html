@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML 태그 모음</title>
+</head>
+<body>
+  <h1 style="color: blue"><strong>HTML 문서 작성 태그 모음</strong></h1>
+  <br>
+  <h2>글자 작성 관련 태그</h2>
+  <pre>
+    - 1. 새 파일 만든 후 ! -> tab
+         <small>* ! -> tab 사용 시 기본 문서 양식 구현</small>
+    - 2. title 태그 제목 변
+    - 3. body 태그 내 주제별 / 제목별 h1~h6 사용하여 작
+         <small>* 제목별 글 색상지정은 style="color:fff"를 이용</small>
+    - 4. 내용 작성 시 각 단어/문장을 강조할 경우
+        가. 글자 굵기            <small>
+              ① b(bold) : 단순히 굵게 표시
+              ② strong : 글자를 굵게 표시, 시스템 상 표시하는 태그            </small>
+        나. 기울임            <small>
+              ① i(italic) : 단순히 글자의 모양을 기울림
+              ② em : 글자를 기울여 표현함            </small>
+               <small>* 웹 접근성으로 인해 strong/em을 사용하여 강조를 함!</small>
+        다. 형광펜 및 아래선<small>
+              ① mark : 형광펜 표시
+              ② u : 아래 밑줄</small>
+        라. 취소선 및 삭제선            <small>
+              ① s : 취소선
+              ② del : 삭제선            </small>
+            </pre>
+              <hr>
+  <h2>목록 작성 관련 태그</h2>
+  
+    <h3>2024.06.24</h3>
+    <h5>담당 강사</h5>
+    <hr>
+    <ul>
+      <li>프로그래밍 언어
+        <ul>
+          <li>Java</li>
+        </ul>
+      </li>
+      <li>데이터 베이스
+        <ul>
+          <li>Oracle</li>
+        </ul>
+      </li>
+      <li>화면 구현
+        <ol>  <li><mark>HTML5</mark></li>
+          <li><u>CSS3</u></li>
+          <li>JavaScript</li>
+        </ol>
+      </li>
+      <li>서버개발기술
+        <ol>
+          <li>JDBC</li>
+          <li>Servlet</li>
+          <li>JSP</li>
+          <li>Ajax</li>
+        </ol>
+      </li>
+      <li>프레임워크
+        <ol>
+          <li><strong>Spring</strong></li>
+          <li>Spring Boot</li>
+          <li>MyBatis</li>
+          <li>React</li>
+        </ol>
+      </li>
+    </ul>
+<hr>
+<table border="1">
+  <thead>
+    <tr>
+      <th>프로그래밍 언어</th>
+      <th>데이터베이스</th>
+      <th>화면 구현</th>
+      <th>서버개발기술</th>
+      <th>프레임워크</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td rowspan="4">Java</td>
+      <td rowspan="4">Oracle</td>
+      <td rowspan="2">HTML5</td>
+      <td>JDBC</td>
+      <td>Spring</td>
+    </tr>
+    <tr>
+      <td>CSS3</td>
+      <td>Servlet</td>
+      <td>Spring Boot</td>
+    </tr>
+    <tr>
+      <td>JavaScript</td>
+      <td>JSP</td>
+      <td>MyBatis</td>
+    </tr>
+    <tr>
+      <td>Ajax</td>
+      <td>React</td>
+    </tr>
+  </tbody>
+
+</table>
+  
+  
+</body>
+</html>
